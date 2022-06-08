@@ -113,7 +113,7 @@ selectNodeVersion
 if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   cd "$DEPLOYMENT_TARGET"
   echo "Running npm install"
-  eval $NPM_CMD install --production
+  eval $NPM_CMD install
   echo "Running gulp build"
   eval ./node_modules/.bin/gulp build
   exitWithMessageOnError "gulp failed"
