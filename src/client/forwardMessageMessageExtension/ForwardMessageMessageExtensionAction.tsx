@@ -18,7 +18,7 @@ export const ForwardMessageMessageExtensionAction = () => {
     TeamsMsal2Provider.microsoftTeamsLib = microsoftTeams;
 
     Providers.globalProvider = new TeamsMsal2Provider({
-      clientId: `13237e16-1fc7-47a0-a8cf-acad64ab4e0b`,
+      clientId: `fcfe93fd-2132-4834-b2c1-df9b22f3cc62`,
       authPopupUrl: '/auth.html',
       scopes: ['User.Read','Mail.ReadBasic', 'User.ReadBasic.All','ChatMessage.Send', 'User.Read.All', 'Chat.ReadWrite','People.Read','Team.ReadBasic.All','Group.Read.All','Channel.ReadBasic.all','Chat.Create','Chat.ReadWrite'],
       ssoUrl: '/api/token',
